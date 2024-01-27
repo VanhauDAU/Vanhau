@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    background-color: #F0F0F0;
+}
+.content2{
+    padding: 0 140px;
+}
+.sanphamne{
+    justify-content: center;
+}
+.header img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.header .icon-find {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content .logo-img {
+    height: auto;
+    width: 100%;
+    margin-top: 140px;
+}
+.header .menu,
+.header .header-right .menu-right{
+    list-style: none;
+    display: flex;
+    opacity: 0.7;
+}
+
+.header .menu li,
+.menu-right li{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header .menu li:hover {
+    color: #007784;
+}
+.header .header-left{
+    display: flex;
+    align-items: center;
+}
+.header .menu-right span{
+    border-right: 1px solid #ccc;
+    padding-left:20px ;
+}
+.menu .menu-right{
+    margin-right: 50px;
+}
+.content .text{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.content .text button{
+    padding: 20px 30px;
+    margin-top: 40px;
+    background-color:#F0F0F0;
+    border: 1px solid #017885;
+    font-size: 15px;
+}
+.content2 .sanphamne{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 84px;
+}
+.content2 .product{
+    margin-right: 30px;
+}
+.content2 .sanphamne .product .product-img img{
+    width: 340px;
+    height: 440px;
+    margin-bottom: 10px;
+}
+.content2 .sanphamne .product .product-info{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.product .product-info .text1{
+    opacity: 0.5;
+    font-weight: 200;
+    font-size: 15px ;
+}
+.product-info .name-product{
+    color: #007784;
+    font-weight: 400;
+    line-height: 50px;
+}
+.product .product-info .price-1{
+    display: flex;
+    align-items: center;
+}
+.product .product-info .price-no{
+    text-decoration: line-through;
+    margin: 0 10px 0 80px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.info-product-new .box{
+    width: auto;
+    height: 400px;
+    background-image: url("https://scontent.fdad1-3.fna.fbcdn.net/v/t1.6435-9/30705085_182677042385640_8285350569523019776_n.png?_nc_cat=110&ccb=1-7&_nc_sid=300f58&_nc_ohc=MUT_fn-lcB0AX8WHRzu&_nc_ht=scontent.fdad1-3.fna&oh=00_AfCK9vagC0lcAwWC-DY81NeWMZIGbH4tCSN8Nnw_aZKO2w&oe=65DB684D");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    text-align: center;
+}
+.info-product-new .box .MixiShop{
+    color: white;
+    font-size: 50px;
+    padding-top: 130px ;
+    margin-bottom: 30px;
+}
+.info-product-new .box .update{
+    color: white;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.info-product-new .box .fanpage{
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.info-product-new .box .instagram{
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+}
+.instagram:hover{
+    color: black;
+    background-color:white;
+}
+.Awesome{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    padding: 30px 180px;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-left{
+    width: 340px;
+    height: auto;
+}
+.footer .name{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 20px;
+    opacity: 0.8;
+    line-height: 30px;
+    margin-right: 40px;
+}
+.footer .footer-mid1 li,
+.footer .footer-mid2 li{
+    color: #007784;
+    line-height: 50px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.footer .footer-mid1,
+.footer .footer-mid2{
+    width: 300px;
+    height: auto;
+}
+.footer .footer-right{
+    width: 300px;
+}
+.cuoi{
+    width: 100%;
+    margin-left: 200px
+}
